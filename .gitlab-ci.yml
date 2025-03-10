@@ -15,7 +15,6 @@ shared-runner-stats:
   script:
     - free -m | grep -v "Swap" # RAM
     - df -h| grep -E "Filesystem|overlay" # storage
-    - lscpu | grep -E "^CPU\(s\)" # CPUs
 
 build_image:
   stage: build
