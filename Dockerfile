@@ -7,4 +7,3 @@ RUN pip install unsloth
 RUN python -c "import torch; print(torch.__version__)"
 RUN python -c "import torchvision; print(torchvision.__version__)"
 RUN python -c "import torchaudio; print(torchaudio.__version__)"
-RUN python -c "import unsloth; print(unsloth.__version__)"
